@@ -1,9 +1,11 @@
-
 [project]
 name = "main"
 version = "0.1.0"
-description = "Add your description here"
+description = "Multi-Language Online Code Editor"
 readme = "README.md"
 python = ">=3.8,<3.12"
 
-dependencies = []
+dependencies = [
+    "streamlit>=1.30.0"
+]
+
