@@ -1,11 +1,15 @@
-[project]
+[tool.poetry]
 name = "main"
 version = "0.1.0"
 description = "Multi-Language Online Code Editor"
 readme = "README.md"
-python = ">=3.13
 
-dependencies = [
-    "streamlit>=1.30.0"
-]
+[tool.poetry.dependencies]
+python = ">=3.12"  # Use >=3.12 if 3.13 is not available
+streamlit = "^1.30.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
 
